@@ -107,6 +107,7 @@
     "ValueCallback": true,
     "captureScreen": true,
     "timers": true,
+    "IntentFilter": true,
 
     "_test": true
   },

@@ -2,8 +2,14 @@
 //定义要编译的项目，compile， true 表示编译，false，不编译
 var projects = [ //项目数组，放的是每一个要编译的项目，
   {
-    id: 1, //项目号
+    id: 5, //项目号
     compile: true, //是否编译
+    name: "my", //项目名称，需要和文件夹名相同
+    main: "./main.js" //主入文件，入口文件，按autojs目录，一般和project.json 同级
+  },
+  {
+    id: 1, //项目号
+    compile: false, //是否编译
     name: "云控demo", //项目名称，需要和文件夹名相同
     main: "./test.js" //主入文件，入口文件，按autojs目录，一般和project.json 同级
   },
